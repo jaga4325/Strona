@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>
+    Produkty 
+</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+   <style>
+    .cegly{
+        border-style:ridge;
+        display: inline-block;
+        width: 450px;
+        justify-self: left;
+        margin-left: 50px;
+    }
+    .cegly-tytul{
+        font-size: 30px;
+        font-family: Roboto, Arial;
+    }
+    .srodki{
+        font-size: 15px;
+        font-family: Roboto, Arial;
+    }
+    .cena{
+        font-size: 10px;
+        font-family: Roboto, Arial;
+        margin-left: 5px;
+    }
+    .cegly-opis{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .cegly-obraz{
+        display: inline-block;
+        vertical-align: middle;
+        width: 200px;
+        margin-left: 30px;
+        align-self: flex-start;
+    }
+    .cegly-obraz-jpg{
+        width: 100%;
+        min-width: 100px;
+        min-height: 120px;
+        vertical-align: middle;
+        object-fit: contain;
+    }
+    .wiecej{
+        border-style:ridge;
+        width: 450px;
+        text-align: center;
+        vertical-align: middle;
+        align-items: center;
+        justify-self: right;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        vertical-align: middle;
+        margin-right: 100px;
+    }
+    .wiecej-tekst{
+        font-family: Roboto, Arial;
+        text-align: center;
+        align-self: center;
+        justify-self: center;
+        vertical-align: middle;
+        text-align: center;
+        position: relative;
+        top: 45%;
+    }
+    .wroc{
+        width: 70%;
+        position: relative;
+        left: 15%;
+        margin-top: 30px;
+        border-radius: 6px;
+        font-family: Roboto, Arial;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        border: solid;
+        transition: background-color 0.5s, color 0.5s;
+    }
+    .wroc:hover{
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+    .logo{
+            display: flex;
+            margin-top: 180px;
+            justify-self: end;
+            flex: 1;
+            height: 100px;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            padding-bottom: 8px;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+        .logo-png{
+            height: 100px;
+            flex: 1;
+            object-fit: scale-down;
+        }
+        .title-bottom{
+            display: inline-block;
+            font-family: Roboto, Arial;
+            font-size: 40px;
+            margin-bottom: 2px;
+            display: inline-block;
+            flex: 20;
+            margin-top: 20px;
+        }
+   </style>
+    </head>
+
+    <body>
+
+      <div style = "display: flex;
+      column-gap: 200px;
+      width: 100%;">
+        <div class = "cegly">
+            <div class = "cegly-opis">
+                <p class = "cegly-tytul">
+                    Cegły
+                </p>
+            
+             <div>
+                <p class = "srodki">
+                  Środki: 40zł/m&#178;
+                  
+                </p>
+
+                <p class = "srodki">
+                    Lica: 60zł/m&#178;
+                </p>
+
+                <p class = "srodki">
+                Tel.: 721 814 975
+                </p>
+                
+             </div>
+            </div>
+            <div class = "cegly-obraz">
+                <img src = "obrazy/cegły.JPG" class = "cegly-obraz-jpg">
+            </div>
+            <div>
+                <p class = "cena">
+                    (ceny netto)
+                </p>
+            </div>
+        </div>
+        <div class = "wiecej">
+            <p class = "wiecej-tekst">
+                Więcej produktów w przyszłości
+            </p>
+        </div>
+      </div>
+      <a href = "strona.html">
+      <button class = "wroc">
+        Wróć na stronę główną
+      </button>
+      </a>
+      <div class = "logo">
+        <img src = obrazy/jaga-logo3.PNG class = "logo-png">
+        <p class = "title-bottom">
+         Oficjalna strona PPHU Jaga
+        </p>
+       </div>
+      <script>
+        alert('Zakupy jak na razie odbywają się telefonicznie, w bliskiej przyszłości może to się zmienić')
+      </script>
+    </body>
+</html>
